@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,0,-50)">
+        <g id="Spülen" transform="matrix(1,0,0,1,-338.333,50)">
+            <rect x="338.333" y="0" width="30" height="30" style="fill:none;"/>
+            <g id="Spülen-Icon" transform="matrix(1.03399,0,0,1.04322,-10.7834,-0.64834)">
+                <g transform="matrix(0.92606,0,0,0.981548,200.07,0.767549)">
+                    <path d="M165.5,1C165.5,1 157,14.336 157,20.051C157,24.438 160.809,28 165.5,28C170.191,28 174,24.438 174,20.051C174,14.336 165.5,1 165.5,1Z" style="fill:none;stroke:rgb(255,184,0);stroke-width:2.1px;"/>
+                </g>
+                <g transform="matrix(0.997058,0.0766454,-0.0791112,1.02914,188.481,-9.84006)">
+                    <path d="M159.5,2C159.5,2 156,8.758 156,11.654C156,13.585 157.568,15.154 159.5,15.154C161.432,15.154 163,13.585 163,11.654C163,8.758 159.5,2 159.5,2Z" style="fill:rgb(255,184,0);stroke:rgb(255,184,0);stroke-width:1.97px;"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,413 @@
+body {
+    overflow: hidden;
+    margin: unset;
+    padding: unset;
+    background-color: #000000;
+    color: #000000;
+    font-family: "Basic", "Arial", sans-serif;
+    text-align: center;
+}
+
+.active {
+    color: #FFB800;
+}
+
+.invisible {
+    color: #000000;
+}
+
+#controlBar {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #ffffff;
+    width: 1450px;
+    height: 440px;
+}
+
+#powerBtn {
+    position: absolute;
+    left: 50px;
+    top: 196px;
+    width: 50px;
+    height: 50px;
+    background-color: #c4c4c4;
+    border-radius: 50%;
+}
+#powerIcon {
+    position: relative;
+    top: 8px;
+    font-size: 35px;
+}
+
+#programWheel {
+    position: absolute;
+    left: 142px;
+    top: 68.5px;
+    width: 303px;
+    height: 303px;
+    background-color: #000000;
+    border-radius: 50%;
+    color: #ffffff;
+}
+#programKnob {
+    position: relative;
+    top: 84px;
+    left: 84px;
+    height: 135px;
+    width: 135px;
+    background-color: #c4c4c4;
+    border-radius: 50%;
+}
+#cotton {
+    position: absolute;
+    top: 10px;
+    left: 115px;
+}
+#boil {
+    position: absolute;
+    top: 45px;
+    left: 175px;
+}
+#jeans {
+    position: absolute;
+    top: 85px;
+    left: 240px;
+}
+#wool {
+    position: absolute;
+    top: 128px;
+    left: 250px;
+}
+#express {
+    position: absolute;
+    top: 170px;
+    left: 225px;
+}
+#delicates {
+    position: absolute;
+    top: 210px;
+    left: 180px;
+}
+#easyCare {
+    position: absolute;
+    top: 250px;
+    left: 110px;
+}
+#spin {
+    position: absolute;
+    top: 210px;
+    left: 35px;
+}
+#stains {
+    position: absolute;
+    top: 170px;
+    left: 20px;
+}
+#sport {
+    position: absolute;
+    top: 128px;
+    left: 12px;
+}
+#outdoor {
+    position: absolute;
+    top: 85px;
+    left: 20px;
+}
+#impregnate {
+    position: absolute;
+    top: 45px;
+    left: 35px;
+}
+
+#tempWheel {
+    position: absolute;
+    left: 480px;
+    top: 127px;
+    width: 186px;
+    height: 186px;
+    background-color: #000000;
+    border-radius: 50%;
+    color: #ffffff;
+}
+#tempKnob {
+    position: relative;
+    top: 43px;
+    left: 43px;
+    height: 100px;
+    width: 100px;
+    background-color: #c4c4c4;
+    border-radius: 50%;
+}
+#tempCold {
+    position: relative;
+    top: -100px;
+    left: 0px;
+}
+#temp20 {
+    position: relative;
+    top: -100px;
+    left: 64px;
+}
+#temp30 {
+    position: relative;
+    top: -67px;
+    left: 64px;
+}
+#temp40 {
+    position: relative;
+    top: -65px;
+    left: 0px;
+}
+#temp60 {
+    position: relative;
+    top: -135px;
+    left: -64px;
+}
+#temp90 {
+    position: relative;
+    top: -237px;
+    left: -65px;
+}
+
+#spinWheel {
+    position: absolute;
+    top: 127px;
+    left: 700px;
+    width: 186px;
+    height: 186px;
+    background-color: #000000;
+    border-radius: 50%;
+    color: #ffffff;
+}
+#spinKnob {
+    position: relative;
+    top: 43px;
+    left: 43px;
+    height: 100px;
+    width: 100px;
+    background-color: #c4c4c4;
+    border-radius: 50%;
+}
+#spin0 {
+    position: absolute;
+    top: -2px;
+    left: 88px;
+}
+#spin200 {
+    position: absolute;
+    top: 20px;
+    left: 132px;
+}
+#spin400 {
+    position: absolute;
+    top: 70px;
+    left: 150px;
+}
+#spin600 {
+    position: absolute;
+    top: 120px;
+    left: 132px;
+}
+#spin800 {
+    position: absolute;
+    top: 142px;
+    left: 81px;
+}
+#spin1000 {
+    position: absolute;
+    top: 120px;
+    left: 22px;
+}
+#spin1200 {
+    position: absolute;
+    top: 70px;
+    left: 4px;
+}
+#spin1400 {
+    position: absolute;
+    top: 20px;
+    left: 22px;
+}
+
+.fa-circle {
+    font-size: 8px;
+}
+#timeWheel {
+    position: absolute;
+    left: 918px;
+    top: 136px;
+    width: 168px;
+    height: 168px;
+    background-color: #000000;
+    border-radius: 50%;
+    color: #ffffff;
+}
+#timeKnob {
+    position: relative;
+    top: 42px;
+    left: 42px;
+    height: 84px;
+    width: 84px;
+    background-color: #c4c4c4;
+    border-radius: 50%;
+}
+#time0 {
+    position: absolute;
+    top: -6px;
+    left: 79px;
+}
+#time1 {
+    position: absolute;
+    top: 12px;
+    left: 106px;
+}
+#time2 {
+    position: absolute;
+    top: 26.5px;
+    left: 127px;
+}
+#time3 {
+    position: absolute;
+    top: 36px;
+    left: 140px;
+}
+#time4 {
+    position: absolute;
+    top: 73px;
+    left: 145px;
+}
+#time5 {
+    position: absolute;
+    top: 98px;
+    left: 140px;
+}
+#time6 {
+    position: absolute;
+    top: 105.5px;
+    left: 125px;
+}
+#time7 {
+    position: absolute;
+    top: 132.8px;
+    left: 103.8px;
+}
+#time8 {
+    position: absolute;
+    top: 138px;
+    left: 79px;
+}
+#time9 {
+    position: absolute;
+    top: 119px;
+    left: 53.5px;
+}
+#time10 {
+    position: absolute;
+    top: 118px;
+    left: 33px;
+}
+#time11 {
+    position: absolute;
+    top: 96px;
+    left: 20px;
+}
+#time12 {
+    position: absolute;
+    top: 59px;
+    left: 10px;
+}
+#time13 {
+    position: absolute;
+    top: 47px;
+    left: 20px;
+}
+#time14 {
+    position: absolute;
+    top: 25.5px;
+    left: 34px;
+}
+#time15 {
+    position: absolute;
+    top: 1px;
+    left: 50px;
+}
+
+#display { 
+    position: absolute;
+    left: 1115px;
+    top: 54px;
+    width: 212px;
+    height: 135px;
+    background-color: #000000;
+    color: #FFB800;
+    font-size: 70px;
+    text-align: center;
+    line-height: 135px;
+}
+#lock {
+    position: absolute;
+    left: 1307px;
+    top: 132px;
+    font-size: 28.5px;
+}
+
+#rinseBtn {
+    position: absolute;
+    left: 1155px;
+    top: 222px;
+    width: 135px;
+    height: 34px;
+    background-color: #c4c4c4;
+    border-radius: 50%;
+}
+#rinseText {
+    position: relative;
+    top: -3px;
+    font-size: 13px;
+}
+
+#shortBtn {
+    position: absolute;
+    left: 1155px;
+    top: 290px;
+    width: 135px;
+    height: 34px;
+    background-color: #c4c4c4;
+    border-radius: 50%;
+}
+#shortText {
+    position: relative;
+    top: -3px;
+    font-size: 13px;
+}
+
+#ecoBtn {
+    position: absolute;
+    left: 1155px;
+    top: 358px;
+    width: 135px;
+    height: 34px;
+    background-color: #c4c4c4;
+    border-radius: 50%;
+}
+#ecoText {
+    position: relative;
+    top: -3px;
+    font-size: 13px;
+}
+
+#startBtn {
+    position: absolute;
+    left: 1357px;
+    top: 195px;
+    width: 50px;
+    height: 50px;
+    background-color: #c4c4c4;
+    border-radius: 50%;
+}
+#startText {
+    position: relative;
+    top: 5px;
+    font-size: 13px;
+}
