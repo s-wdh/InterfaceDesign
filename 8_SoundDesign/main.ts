@@ -10,8 +10,8 @@ namespace SoundDesign {
     let spinWheel: HTMLDivElement = <HTMLDivElement>document.getElementById("spinWheel");
     let timeWheel: HTMLDivElement = <HTMLDivElement>document.getElementById("timeWheel");
     let display: HTMLDivElement = <HTMLDivElement>document.getElementById("display");
-    let leadTimeIcon: HTMLImageElement = <HTMLImageElement>document.getElementById("leadTimediv");
-    let leadTimediv: HTMLImageElement = <HTMLImageElement>document.getElementById("leadTime");
+    let leadTimeIcon: HTMLImageElement = <HTMLImageElement>document.getElementById("leadTime");
+    let leadTimediv: HTMLImageElement = <HTMLImageElement>document.getElementById("leadTimediv");
     let preWashIcon: HTMLImageElement = <HTMLImageElement>document.getElementById("preWash");
     let preWashdiv: HTMLDivElement = <HTMLDivElement>document.getElementById("preWashdiv");
     let mainWashIcon: HTMLImageElement = <HTMLImageElement>document.getElementById("mainWash");
@@ -78,9 +78,9 @@ namespace SoundDesign {
             rinseBtn.classList.add("invisible");
             shortBtn.classList.add("invisible");
             ecoBtn.classList.add("invisible");
+            leadTimediv.removeAttribute("hidden");
             finished.classList.remove("active");
             lock.classList.remove("active");
-            leadTimediv.removeAttribute("hidden");
             clearInterval(startBtnAnim);
             startBtn.classList.remove("active");
             startBtn.style.color = "#000000";
