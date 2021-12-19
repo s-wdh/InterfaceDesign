@@ -11,7 +11,8 @@ var SoundDesign;
     let spinWheel = document.getElementById("spinWheel");
     let timeWheel = document.getElementById("timeWheel");
     let display = document.getElementById("display");
-    let leadTimeIcon = document.getElementById("leadTime");
+    let leadTimeIcon = document.getElementById("leadTimediv");
+    let leadTimediv = document.getElementById("leadTime");
     let preWashIcon = document.getElementById("preWash");
     let preWashdiv = document.getElementById("preWashdiv");
     let mainWashIcon = document.getElementById("mainWash");
@@ -78,6 +79,7 @@ var SoundDesign;
             ecoBtn.classList.add("invisible");
             finished.classList.remove("active");
             lock.classList.remove("active");
+            leadTimediv.removeAttribute("hidden");
             clearInterval(startBtnAnim);
             startBtn.classList.remove("active");
             startBtn.style.color = "#000000";
@@ -88,6 +90,7 @@ var SoundDesign;
         }
         else {
             onSound.play();
+            leadTimediv.setAttribute("hidden", "hidden");
             powerBtn.classList.add("active");
             door.addEventListener("click", handleDoor);
             controlBar.addEventListener("click", handleClick);
